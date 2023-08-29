@@ -1,5 +1,7 @@
 import java.util.*;
 public class ThreeSum {
+
+    // Implement 3Sum using TwoSum approach
     public static List<List<Integer>> Calculate3Sum(int[] arr) {
         
         if(arr == null || arr.length < 3) {
